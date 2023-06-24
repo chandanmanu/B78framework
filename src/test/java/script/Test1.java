@@ -15,8 +15,11 @@ public class Test1 extends BaseTest{
 	{
 		String un=Excel.getCellData(XL_PATH,"test1",1,0);
 		Reporter.log(un,true);
-		Reporter.log("test1...",true);
+		Reporter.log("test1jhfku...",true);
 		DemoPage d=new DemoPage(driver);
 		d.setUserName(un);
+		Reporter.log("test1jhfku...",true);
+		
+		
 	}
 }
